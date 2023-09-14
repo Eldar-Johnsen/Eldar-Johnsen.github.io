@@ -11,9 +11,3 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-
-let blinking_text = document.getElementById('blink_effect');
-setInterval(function() {
-    blinking_text.style.display = (blinking_text.style.display == 'none' ? '' : 'none');
-}, 1000);
-
