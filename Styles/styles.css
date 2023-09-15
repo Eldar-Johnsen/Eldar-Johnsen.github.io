@@ -94,7 +94,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 .post {
@@ -102,9 +102,42 @@ body {
     border: 5px solid rgb(0, 255, 0);
     margin: 10px 0;
     padding: 10px;
+    border-radius: 5px;
 }
 
 img.gif{
     width: 450px;
     height: 300px;
-  }
+}
+
+.blink{
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@media screen and (max-width: 630px) {
+    img.gif {
+      max-width: 225px; 
+      max-height: 150px;
+    }
+  
+    .header h1 {
+      font-size: 35px;
+    }
+}
+
+.link {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+    padding: 14px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
