@@ -31,7 +31,7 @@ body {
 
 #navbar a {
     text-decoration: none;
-    color: #00ff00; /* Neon green link color */
+    color: #00ff00; 
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -68,32 +68,28 @@ body {
     padding: 10px;
 }
 
-
-/* Add flashing animation to the header */
 .header h1 {
     animation: colorFlash 2s infinite alternate;
     font-size: 50px;
 }
 
-/* Define the colorFlash animation */
 @keyframes colorFlash {
     0% {
-        color: #ff00ff; /* Neon purple */
+        color: #ff00ff;
     }
     25% {
-        color: #00ff00; /* Neon green */
+        color: #00ff00; 
     }
     50% {
-        color: #0000ff; /* Blue */
+        color: #0000ff;
     }
     75% {
-        color: #ff0000; /* Red */
+        color: #ff0000;
     }
     100% {
-        color: #ffff00; /* Yellow */
+        color: #ffff00;
     }
 }
-
 
 .container {
     max-width: 800px;
@@ -108,3 +104,7 @@ body {
     padding: 10px;
 }
 
+img.gif{
+    width: 450px;
+    height: 300px;
+  }
