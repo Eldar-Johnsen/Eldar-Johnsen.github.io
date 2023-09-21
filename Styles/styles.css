@@ -58,7 +58,7 @@ body {
 }
 
 .sticky + .content {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .footer {
@@ -116,9 +116,12 @@ img.gif{
 
 @keyframes blink {
     0% { opacity: 1; }
-    50% { opacity: 0; }
+    25% { opacity: 0; }
+    50% { opacity: 1; }
+    75% { opacity: 0; }
     100% { opacity: 1; }
 }
+
 
 @media screen and (max-width: 630px) {
     img.gif {
@@ -140,4 +143,13 @@ img.gif{
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: blue;
+}
+
+.p1 {
+    text-align: left;
 }
